@@ -1,0 +1,24 @@
+smartmontools   # cek kesehatan disk (SMART)
+testdisk        # pemulihan partisi dan berkas
+gddrescue       # salin data dari disk rusak
+fsarchiver      # backup/restore filesystem
+gparted         # pengelola partisi grafis
+ntfs-3g         # akses disk NTFS (Windows)
+mdadm           # RAID perangkat lunak
+lvm2            # volume LVM
+cryptsetup      # disk terenkripsi LUKS
+hdparm          # informasi dan uji disk
+nvme-cli        # diagnostik SSD NVMe
+htop            # pemantau proses
+strace          # pelacak system call
+tcpdump         # penangkap paket
+nmap            # pemindai jaringan
+ncdu            # analisis pemakaian disk
+memtester       # uji memori
+lsof            # berkas yang dibuka proses
+xfce4           # desktop ringan
+xfce4-goodies   # plugin panel (Whisker menu dll.)
+lightdm         # display manager
+lightdm-gtk-greeter
+zenity          # dialog untuk skrip first login
+language-pack-id # bahasa Indonesia
