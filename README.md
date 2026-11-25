@@ -1,4 +1,4 @@
-# Kaiju Rescue & Management Service OS
+#  Kaiju Rescue & Management Service OS
 
 Distro Linux kustom berbasis **Ubuntu 22.04** dengan desktop **XFCE** dan **LightDM**, bertema toolkit diagnostik dan pemulihan sistem (disk, data, dan jaringan).
 
@@ -123,7 +123,7 @@ ls -lh kaiju-1.0-amd64.iso
 sha256sum kaiju-1.0-amd64.iso
 ```
 
-##  Informasi ISO
+## Informasi ISO
 
 | Item | Nilai |
 |------|-------|
@@ -147,13 +147,6 @@ ISO diuji di **VirtualBox** sampai berhasil boot live system, diinstal sampai se
 | Jaringan | NAT |
 | Akselerasi | Nested Paging, KVM Paravirtualization |
 
-##  Kendala dan Solusi
-
-| Kendala | Solusi |
-|---------|--------|
-| Paket tidak ditemukan saat `apt install` karena repositori universe belum aktif | Aktifkan repositori `universe` di awal skrip |
-| Pesan galat `zsys` akibat hook snapshot tidak berjalan di chroot Cubic | Nonaktifkan hook zsys (`rm -f /etc/apt/apt.conf.d/90_zsys_system_autosnapshot`) |
-| Berkas aset tidak terbaca karena path pada skrip build salah | Perbaiki path relatif pada skrip |
 
 ##  Anggota Kelompok
 
@@ -170,14 +163,15 @@ ISO diuji di **VirtualBox** sampai berhasil boot live system, diinstal sampai se
 | 9 | A Astri Cindy Manchetti | 251011101 | Skrip first login |
 | 10 | Muhammad Idris | 251011091 | Build ISO, pengujian VM, dan pengelolaan repositori |
 
- Status Tahap 1
-✅ Pilih distro induk (Ubuntu) dan alat pembangun (Cubic)
-✅ Hapus paket tidak perlu dan pasang minimal 10 paket relevan
-✅ Desktop ringan, wallpaper, logo, dan nama distro (branding)
-✅ Konfigurasi bawaan: bahasa, zona waktu, pengguna awal, skrip first login
-✅ Hasilkan ISO dan uji di VM (instalasi dan boot dari disk)
-✅ Simpan konfigurasi dan skrip di repositori
+##  Status Tahap 1
 
-##  Lisensi
+- ✅ Pilih distro induk (Ubuntu) dan alat pembangun (Cubic)
+- ✅ Hapus paket tidak perlu dan pasang minimal 10 paket relevan
+- ✅ Desktop ringan, wallpaper, logo, dan nama distro (branding)
+- ✅ Konfigurasi bawaan: bahasa, zona waktu, pengguna awal, skrip first login
+- ✅ Hasilkan ISO dan uji di VM (instalasi dan boot dari disk)
+- ✅ Simpan konfigurasi dan skrip di repositori
+
+## 📄 Lisensi
 
 Proyek ini dibuat untuk keperluan pembelajaran mata kuliah Sistem Operasi. Paket-paket yang disertakan mengikuti lisensi masing-masing.
