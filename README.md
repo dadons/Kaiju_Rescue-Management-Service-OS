@@ -170,14 +170,13 @@ ISO diuji di **VirtualBox** sampai berhasil boot live system, diinstal sampai se
 | 9 | A Astri Cindy Manchetti | 251011101 | Skrip first login |
 | 10 | Muhammad Idris | 251011091 | Build ISO, pengujian VM, dan pengelolaan repositori |
 
-##  Status Tahap 1
-
-- [x] Pilih distro induk (Ubuntu) dan alat pembangun (Cubic)
-- [x] Hapus paket tidak perlu dan pasang minimal 10 paket relevan
-- [x] Desktop ringan, wallpaper, logo, dan nama distro (branding)
-- [x] Konfigurasi bawaan: bahasa, zona waktu, pengguna awal, skrip first login
-- [x] Hasilkan ISO dan uji di VM (instalasi dan boot dari disk)
-- [x] Simpan konfigurasi dan skrip di repositori
+ Status Tahap 1
+✅ Pilih distro induk (Ubuntu) dan alat pembangun (Cubic)
+✅ Hapus paket tidak perlu dan pasang minimal 10 paket relevan
+✅ Desktop ringan, wallpaper, logo, dan nama distro (branding)
+✅ Konfigurasi bawaan: bahasa, zona waktu, pengguna awal, skrip first login
+✅ Hasilkan ISO dan uji di VM (instalasi dan boot dari disk)
+✅ Simpan konfigurasi dan skrip di repositori
 
 ##  Lisensi
 
